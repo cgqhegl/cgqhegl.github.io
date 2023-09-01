@@ -54,13 +54,13 @@ window.addEventListener('load', function () {
             timeout: 2500,
             icon: false,
             title: hello,
-            message: '欢迎来到WayneのHome'
+            message: '欢迎来到scsnのHome'
         });
     }, 800);
 
     //延迟加载音乐播放器
     let element = document.createElement("script");
-    element.src = "./js/music.js";
+    element.src = "./home/js/music.js";
     document.body.appendChild(element);
 
 }, false)
